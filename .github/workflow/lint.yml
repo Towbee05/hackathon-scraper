@@ -2,6 +2,8 @@ name: Lint
 
 on: 
   push:
+    branches:
+      - master  
     paths: 
       - '**/*.py'
 
@@ -19,6 +21,6 @@ jobs:
     
     - name: Install ruff Linter
       run: pip install ruff
-      
+
     - name: Run ruff Linter
-      run: ruff check --output-format=github app/
+      run: ruff check .
