@@ -43,17 +43,13 @@ Github served as a platform for me to create, share and view git staged changes.
     uv venv .venv
     ```
 
-6. Run virtual environment
+6. Run virtual environment. First is for windows OS, and the second is for linux/macOS
 
-    On windows
-        ```bash
-        .venv\Scripts\activate
-        ```
+    ```bash
+    .venv\Scripts\activate
 
-    On linux/macOS
-        ```bash
-        .venv\bin\activate
-        ```
+    .venv\bin\activate
+    ```
 
 7. Install all dependencies
 
