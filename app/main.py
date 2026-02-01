@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from typing import List, TypedDict
-import time
+import json
+import sys
 
 class Hackathon(TypedDict):
     img : str | None
@@ -20,10 +21,16 @@ class Hackathon(TypedDict):
     themes : List[str] | None
 
 def main():
-    URL = "https://devpost.com/hackathons?pages=6"
+    URL = "https://devpost.com/hackathons?page=1"
     html = fetch_data(URL, 20)
     data = parse_html_into_dict(html=html)
-    print(data)
+    try:
+        feed_data_into_json_file(data, "hackathons.json")
+        print("Your data now exists in json file!!!!!")
+        sys.exit(1)
+    except Exception as error:
+        print(error)
+        sys.exit(0)
 
 def fetch_data(url: str, timeout: int=20) -> str:
     # initializing selenium chrome service
@@ -32,12 +39,15 @@ def fetch_data(url: str, timeout: int=20) -> str:
     browser = webdriver.Chrome(service=service)
     
     # Load dynamic page
-    browser.get(url)
-    # Explicitly wait for dynamic page to load (hackathons container)
-    WebDriverWait(browser, timeout).until(EC.visibility_of_element_located((By.CLASS_NAME, "hackathon-tile")))
-    # Load html content
-    html_body = browser.page_source
-    return html_body
+    try:
+        browser.get(url)
+        # Explicitly wait for dynamic page to load (hackathons container)
+        WebDriverWait(browser, timeout).until(EC.visibility_of_element_located((By.CLASS_NAME, "hackathon-tile")))
+        # Load html content
+        html_body = browser.page_source
+        return html_body
+    finally:
+        browser.quit()
 
 def parse_html_into_dict(html: str) -> List[Hackathon]:
     # Starting our soup instance, soup will extract required fields from the returned html
@@ -45,7 +55,6 @@ def parse_html_into_dict(html: str) -> List[Hackathon]:
     fetched_hackathons = []
     # Fetch hackathons details with soup
     hackathons = soup.select('.hackathon-tile')
-    print(len(hackathons))
     for hackathon in hackathons:
         image_link = hackathon.select_one('img')
         title = hackathon.select_one('h3')
@@ -70,7 +79,14 @@ def parse_html_into_dict(html: str) -> List[Hackathon]:
         fetched_hackathons.append(data)
     return fetched_hackathons
 
+# Function to create json file of fetched hackathons
+def feed_data_into_json_file(data, filename):
+    with open(filename, "w", encoding="utf-8") as file_dump:
+        json.dump(data, file_dump, ensure_ascii= False)
+
 def retrieve_text_or_none(text): 
     return text.get_text(strip=True) if text else None # type: ignore
+
+
 if __name__ == "__main__":
     main()
