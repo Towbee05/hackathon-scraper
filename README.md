@@ -66,10 +66,10 @@ I also used github actions to create a linter to lint my files whenever I push t
 
 ## Screenshots
 
-![Code environment](images/code.png)
-![Expected result](images/json.png)
-![Github Interface](images/github.png)
-![Github Commits Interface](images/commits.png)
+![Code environment](./images/code.png)
+![Expected result](./images/json.png)
+![Github Interface](./images/github.png)
+![Github Commits Interface](./images/commits.png)
 
 ## Note
 
