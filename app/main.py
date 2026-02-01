@@ -82,7 +82,7 @@ def parse_html_into_dict(html: str) -> List[Hackathon]:
 # Function to create json file of fetched hackathons
 def feed_data_into_json_file(data, filename):
     with open(filename, "w", encoding="utf-8") as file_dump:
-        json.dump(data, file_dump, ensure_ascii= False)
+        json.dump(data, file_dump, ensure_ascii= False, indent=4)
 
 def retrieve_text_or_none(text): 
     return text.get_text(strip=True) if text else None # type: ignore

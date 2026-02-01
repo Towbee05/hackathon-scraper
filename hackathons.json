@@ -1,1 +1,137 @@
-[{"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/medium_square.png", "title": "Gemini 3 Hackathon", "link": "https://gemini3.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "Google", "prize": "$100,000", "participants": "28093participants", "submission_period": "Dec 17, 2025 - Feb 09, 2026", "days_left": "8 days left", "themes": ["Machine Learning/AI", "Open Ended", "Social Good"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/146/721/datas/medium_square.png", "title": "RevenueCat Shipyard: Creator Contest", "link": "https://revenuecat-shipyard-2026.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "RevenueCat", "prize": "$140,000", "participants": "6341participants", "submission_period": "Jan 15 - Feb 12, 2026", "days_left": "11 days left", "themes": ["Mobile", "Design", "Low/No Code"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/147/444/datas/medium_square.png", "title": "The Reddit Daily Games Hackathon", "link": "https://redditdailygames2026.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "reddit", "prize": "$40,000", "participants": "2157participants", "submission_period": "Jan 15 - Feb 12, 2026", "days_left": "11 days left", "themes": ["Beginner Friendly", "Gaming", "Web"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/016/236/datas/medium_square.png", "title": "Sky’s the Limit - Cloud9 x JetBrains Hackathon", "link": "https://cloud9.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "Cloud9", "prize": "$25,000", "participants": "2217participants", "submission_period": "Dec 09, 2025 - Feb 03, 2026", "days_left": "2 days left", "themes": ["Gaming", "Databases", "Machine Learning/AI"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/061/826/datas/medium_square.png", "title": "Play Everywhere: The Build with Snap Games Lensathon", "link": "https://snapgames.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "Snapchat", "prize": "$30,000", "participants": "1045participants", "submission_period": "Dec 10, 2025 - Feb 03, 2026", "days_left": "1 day left", "themes": ["AR/VR", "Gaming", "Mobile"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/156/365/datas/medium_square.jpg", "title": "Elasticsearch Agent Builder Hackathon", "link": "https://elasticsearch.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "Elastic", "prize": "$20,000", "participants": "762participants", "submission_period": "Jan 22 - Feb 27, 2026", "days_left": "26 days left", "themes": ["Databases", "Machine Learning/AI", "Serverless"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/136/979/datas/medium_square.png", "title": "AI Vibe Coding Hackathon", "link": "https://vibe.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "Open Community", "prize": "$1,800", "participants": "1654participants", "submission_period": "Jan 29 - Feb 02, 2026", "days_left": "1 day left", "themes": ["Beginner Friendly", "Low/No Code", "Open Ended"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/157/datas/medium_square.png", "title": "DevStudio 2026 by Logitech", "link": "https://devstudiologitech2026.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "Logitech", "prize": "$20,000", "participants": "570participants", "submission_period": "Jan 21 - Feb 25, 2026", "days_left": "24 days left", "themes": ["AR/VR", "Open Ended", "Productivity"]}, {"img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png", "title": "Hackonomics 2026", "link": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover", "organization": "hackonomics", "prize": "5", "participants": "833participants", "submission_period": "Jan 23 - Mar 30, 2026", "days_left": "about 2 months left", "themes": ["Beginner Friendly", "Education", "Open Ended"]}]
+[
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/medium_square.png",
+        "title": "Gemini 3 Hackathon",
+        "link": "https://gemini3.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "Google",
+        "prize": "$100,000",
+        "participants": "28110participants",
+        "submission_period": "Dec 17, 2025 - Feb 09, 2026",
+        "days_left": "8 days left",
+        "themes": [
+            "Machine Learning/AI",
+            "Open Ended",
+            "Social Good"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/146/721/datas/medium_square.png",
+        "title": "RevenueCat Shipyard: Creator Contest",
+        "link": "https://revenuecat-shipyard-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "RevenueCat",
+        "prize": "$140,000",
+        "participants": "6344participants",
+        "submission_period": "Jan 15 - Feb 12, 2026",
+        "days_left": "11 days left",
+        "themes": [
+            "Mobile",
+            "Design",
+            "Low/No Code"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/147/444/datas/medium_square.png",
+        "title": "The Reddit Daily Games Hackathon",
+        "link": "https://redditdailygames2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "reddit",
+        "prize": "$40,000",
+        "participants": "2160participants",
+        "submission_period": "Jan 15 - Feb 12, 2026",
+        "days_left": "11 days left",
+        "themes": [
+            "Beginner Friendly",
+            "Gaming",
+            "Web"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/016/236/datas/medium_square.png",
+        "title": "Sky’s the Limit - Cloud9 x JetBrains Hackathon",
+        "link": "https://cloud9.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "Cloud9",
+        "prize": "$25,000",
+        "participants": "2219participants",
+        "submission_period": "Dec 09, 2025 - Feb 03, 2026",
+        "days_left": "2 days left",
+        "themes": [
+            "Gaming",
+            "Databases",
+            "Machine Learning/AI"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/061/826/datas/medium_square.png",
+        "title": "Play Everywhere: The Build with Snap Games Lensathon",
+        "link": "https://snapgames.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "Snapchat",
+        "prize": "$30,000",
+        "participants": "1045participants",
+        "submission_period": "Dec 10, 2025 - Feb 03, 2026",
+        "days_left": "1 day left",
+        "themes": [
+            "AR/VR",
+            "Gaming",
+            "Mobile"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/156/365/datas/medium_square.jpg",
+        "title": "Elasticsearch Agent Builder Hackathon",
+        "link": "https://elasticsearch.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "Elastic",
+        "prize": "$20,000",
+        "participants": "767participants",
+        "submission_period": "Jan 22 - Feb 27, 2026",
+        "days_left": "26 days left",
+        "themes": [
+            "Databases",
+            "Machine Learning/AI",
+            "Serverless"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/136/979/datas/medium_square.png",
+        "title": "AI Vibe Coding Hackathon",
+        "link": "https://vibe.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "Open Community",
+        "prize": "$1,800",
+        "participants": "1655participants",
+        "submission_period": "Jan 29 - Feb 02, 2026",
+        "days_left": "about 24 hours left",
+        "themes": [
+            "Beginner Friendly",
+            "Low/No Code",
+            "Open Ended"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/157/datas/medium_square.png",
+        "title": "DevStudio 2026 by Logitech",
+        "link": "https://devstudiologitech2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "Logitech",
+        "prize": "$20,000",
+        "participants": "571participants",
+        "submission_period": "Jan 21 - Feb 25, 2026",
+        "days_left": "24 days left",
+        "themes": [
+            "AR/VR",
+            "Open Ended",
+            "Productivity"
+        ]
+    },
+    {
+        "img": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png",
+        "title": "Hackonomics 2026",
+        "link": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover",
+        "organization": "hackonomics",
+        "prize": "$0",
+        "participants": "833participants",
+        "submission_period": "Jan 23 - Mar 30, 2026",
+        "days_left": "about 2 months left",
+        "themes": [
+            "Beginner Friendly",
+            "Education",
+            "Open Ended"
+        ]
+    }
+]
