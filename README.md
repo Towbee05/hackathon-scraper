@@ -9,6 +9,12 @@ This is a simple CLI application for the purpose of a hackathon submission. This
 1. Python (main programming language).
 2. Selenium (used for web scraping due to devpost dynamic structure)
 3. Beautiful soup (to parse selenium fetched content into readable format)
+4. Git and Github
+
+## What github was used for in this project
+
+Git served as the major version control system, I used it to keep track of my development history with clean, readable and understandable commits. Git is very useful as it keeps record of changes in files, because of this reason, it is very easy for me to go back into my code in order to locate bugs if any, and in special cases where my codebase maybe lost, I can easily rely on git for staged history.
+Github served as a platform for me to create, share and view git staged changes. With github, I can see all the changes in my project and read through them.
 
 ## Installation
 
@@ -65,6 +71,8 @@ This is a simple CLI application for the purpose of a hackathon submission. This
 
 ![Code environment](images/Screenshot%202026-02-01%20200240.png)
 ![Expected result](images/Screenshot%202026-02-01%20200558.png)
+![Github Interface](images/Screenshot%202026-02-01%20202050.png)
+![Github Commits Interface](images/Screenshot%202026-02-01%20202011.png)
 
 ## Note
 
