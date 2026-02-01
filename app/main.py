@@ -21,7 +21,19 @@ def fetch_data(url):
         # Explicitly wait for dynamic page to load (hackathons container)
         WebDriverWait(browser, 20).until(EC.visibility_of_element_located((By.CLASS_NAME, "hackathon-tile")))
 
-        
+        # Load html content
+        html_body = browser.page_source
+        # Starting our soup instance, soup will extract required fields from the returned html
+        soup = BeautifulSoup(html_body, "html.parser")
+        fetched_hackathons = []
+
+        # Fetch hackathons details with soup
+        hackathons = soup.select('.hackathon-tile')
+        print(len(hackathons))
+        for hackathon in hackathons:
+            title = hackathon.select_one('h3')
+            print(title)
+
         # print(soup)
     except Exception as error:
         # Exception to catch errors
